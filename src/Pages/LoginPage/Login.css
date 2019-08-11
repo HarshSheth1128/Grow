@@ -1,0 +1,67 @@
+.Root {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background-color: #181c1d;
+}
+
+.LoginSplash {
+  height: 100;
+  width: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.LoginBox {
+  width: 300px;
+  height: 200px;
+  background-color: #1f2020;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slidingVertical span::before {
+  animation: fadeText 5s linear;
+  color: white;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  content: "";
+}
+/* 
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+    content: "";
+  }
+  5% {
+    opacity: 1;
+    content: "LEARN";
+  }
+  25% {
+    opacity: 1;
+    content: "LEARN";
+  }
+  40% {
+    opacity: 0;
+    content: "";
+  }
+  60% {
+    opacity: 1;
+    content: "THINK";
+  }
+  80% {
+    opacity: 0;
+    content: "";
+  }
+  100% {
+    opacity: 1;
+    content: "GROW";
+  }
+} */
